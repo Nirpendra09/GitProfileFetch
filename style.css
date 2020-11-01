@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Yeon+Sung&family=ZCOOL+XiaoWei&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Viga&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+  
+}
+
+body{
+   
+  background: #12c2e9; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #12c2e9, #c471ed, #f64f59); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #12c2e9, #c471ed, #f64f59); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+h4{
+    padding: 0.35rem;
+    margin-top : 0.2rem;
+}
+h1{
+    margin-bottom: 2.5rem;
+    font-family: 'ZCOOL XiaoWei', serif;
+    text-shadow: 1px 1px 1px #000, 
+    3px 3px 5px rgb(8, 14, 11); 
+    color: #eeeeee;
+}
+
+img{
+    width: 12rem;
+    
+}
+#logo{
+    width: 8rem;
+}
+input{
+    background-color: #4c2883;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0 5px 10px rgba(154,160,185,.05), 0 15px 40px rgba(166,173,201,.2);
+    font-family: inherit;
+    font-size: 1rem;
+    margin-bottom: 2rem;
+    padding: 1rem;
+    color: white;
+}
+
+input::placeholder{
+    color:#bbb;
+}
+
+input:focus{
+    outline: none;
+}
+.card{
+    background-image: linear-gradient(to right top, #0a3678, #003f94, #0047b1, #004fce, #1256eb);
+    display: flex;
+    padding: 3rem;
+    border-radius: 20px;
+    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+    max-width: 800px;
+}
+
+
+.avatar{
+    height: 100px;
+    width: 100px;
+    border: 10px solid  #5f1d5c;
+    border-radius: 50%;
+}
+.user-info{
+    color: #eee;
+    margin-left: 2rem;
+  font-family: 'ZCOOL XiaoWei', serif;
+}
+.user-info h2{
+    margin-top: 0;
+    font-family: 'Yeon Sung', cursive;
+}
+.user-info ul{
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    width: 400px;
+    list-style-type: none;
+    margin-top: 0.5rem;
+}
+.user-info ul li{
+    display: flex;
+    align-items: center;
+  
+  
+}
+.user-info ul li strong{
+    font-size: 0.9rem;
+    margin-left: 0.5rem;
+  
+}
+.repo{
+    background-color: #2a2a72;
+    display: inline-block;
+    border-radius: 2px;
+    color: white;
+    padding: 0.25rem;
+    margin-bottom: 0.5rem;
+    margin-right: 0.5rem;
+    text-decoration: none;
+    font-size: 0.7rem;
+}
+.site-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 0.25rem;
+    background-color: rgb(235, 214, 176);
+    color: rgb(8, 7, 7);
+    text-align: center;
+    justify-content: center;
+    font-family: 'ZCOOL XiaoWei', serif;
+    font-size: 16px;
+ }  
