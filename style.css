@@ -26,16 +26,16 @@ h4{
     margin-top : 0.2rem;
 }
 h1{
-    margin-bottom: 2.5rem;
+    
     font-family: 'ZCOOL XiaoWei', serif;
     text-shadow: 1px 1px 1px #000, 
     3px 3px 5px rgb(8, 14, 11); 
     color: #eeeeee;
 }
 
-img{
-    width: 12rem;
-    
+#octocat{
+    width: 8rem;
+    margin: 1.5rem;
 }
 #logo{
     width: 8rem;
@@ -66,6 +66,7 @@ input:focus{
     border-radius: 20px;
     box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
     max-width: 800px;
+    margin-bottom: 10rem;
 }
 
 
